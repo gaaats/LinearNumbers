@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav_apppp"
+    app:startDestination="@id/velcomeFragment">
+
+    <fragment
+        android:id="@+id/velcomeFragment"
+        android:name="com.gameartnumm.linearnumbers.VelcomeFragment"
+        android:label="fragment_velcome"
+        tools:layout="@layout/fragment_velcome" >
+        <action
+            android:id="@+id/action_velcomeFragment_to_rulesFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:destination="@id/rulesFragment" />
+        <action
+            android:id="@+id/action_velcomeFragment_to_chooseLevelFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:destination="@id/chooseLevelFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chooseLevelFragment"
+        android:name="com.gameartnumm.linearnumbers.ChooseLevelFragment"
+        android:label="fragment_choose_level"
+        tools:layout="@layout/fragment_choose_level" >
+        <action
+            android:id="@+id/action_chooseLevelFragment_to_gameFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.gameartnumm.linearnumbers.GameFragment"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game" >
+        <action
+            android:id="@+id/action_gameFragment_to_gameFinishedFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:destination="@id/gameFinishedFragment" />
+        <argument
+            android:name="diff"
+            app:argType="com.gameartnumm.linearnumbers.data.Difficulty" />
+        <action
+            android:id="@+id/action_gameFragment_to_chooseLevelFragment"
+            app:destination="@id/chooseLevelFragment"
+            app:launchSingleTop="true"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFinishedFragment"
+        android:name="com.gameartnumm.linearnumbers.GameFinishedFragment"
+        android:label="fragment_game_finished"
+        tools:layout="@layout/fragment_game_finished" >
+        <action
+            android:id="@+id/action_gameFinishedFragment_to_chooseLevelFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/to_left"
+            app:popEnterAnim="@anim/from_left"
+            app:popExitAnim="@anim/to_right"
+            app:destination="@id/chooseLevelFragment"
+            app:launchSingleTop="true"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="gameResult"
+            app:argType="com.gameartnumm.linearnumbers.data.GameResult" />
+    </fragment>
+    <fragment
+        android:id="@+id/rulesFragment"
+        android:name="com.gameartnumm.linearnumbers.RulesFragment"
+        android:label="fragment_rules"
+        tools:layout="@layout/fragment_rules" />
+</navigation>

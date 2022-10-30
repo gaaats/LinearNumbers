@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Linear Numbers</string>
+    <string name="question_mark">\?</string>
+
+    <string name="game_rules">Правила игры: перед вами будет три фигуры, две снизу и одна сверху, в двух из них будут
+        числа. Необходимо, чтобы сумма чисел из двух нижних фигур была равна числу в верхней фигуре,
+        для этого нужно вставить недостающее число.\n\nПример: в верхнем круге число 7, в одном
+        из нижних знак вопроса, а в другом число 4. Значит на месте вопросительного знака должно
+        быть число 3, потому что 3 + 4 = 7</string>
+    <string name="understand">UNDERSTAND</string>
+    <string name="progress_answers">Correct ANS %s (min %s)</string>
+    <string name="game_over">Game Over</string>
+    <string name="score_answers">YOUR SCORE: %s</string>
+    <string name="score_percentage">Percent correct ANS: %s</string>
+    <string name="retry">TRY AGAIN</string>
+    <string name="right_answers">Правильных ответов %s из %s необходимых</string>
+    <string name="required_percentage">REQUIED correct ANS percentage: %s</string>
+    <string name="required_score">REQUIED correct ANS total: %s</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rules">Правила игры: перед вами будет три фигуры, две снизу и одна сверху, в двух из них будут числа. Необходимо, чтобы сумма чисел из двух нижних фигур была равна числу в верхней фигуре, для этого нужно вставить недостающее число.\n\nПример: в верхнем круге число 7, в одном из нижних знак вопроса, а в другом число 4. Значит на месте вопросительного знака должно быть число 3, потому что 3 + 4 = 7</string>
+    <string name="choose_level_dif">ОБЕРИ РІВЕНЬ:</string>
+    <string name="test_level">TEST</string>
+    <string name="level_easy">EASY</string>
+    <string name="normal_level">NORMAL</string>
+    <string name="level_hard">HARD</string>
+    <string name="app_name_dovn_text">© Linear Numbers</string>
+    <string name="game_rulessssss">Rules of the game: you will have three figures in front of you, two from below and one from above, two of them will havenumbers. It is necessary that the sum of the numbers from the two lower figures be equal to the number in the upper figure,to do this, you need to insert the missing number.\n\nExample: the number 7 is in the upper circle, in onefrom the lower question mark, and in the other the number 4. So in place of the question mark shouldbe the number 3 because 3 + 4 = 7\nA number is a mathematical object used to count, measure, and label. The original examples are the natural numbers 1, 2, 3, 4, and so forth.[1] Numbers can be represented in language with number words. More universally, individual numbers can be represented by symbols, called numerals; for example,5 is a numeral that represents the number five. As only a relatively small number of symbols can be memorized, basic numerals are commonly organized in a numeral system, which is an organized way to represent any number. The most common numeral system is the Hindu–Arabic numeral system, which allows for the representation of any number using a combination of ten fundamental numeric symbols, called digits.[2][3] In addition to their use in counting and measuring, numerals are often used for labels (as with telephone numbers), for ordering (as with serial numbers), and for codes (as with ISBNs). In common usage, a numeral is not clearly distinguished from the number that it represents.\nDuring the 19th century, mathematicians began to develop many different abstractions which share certain properties of numbers, and may be seen as extending the concept. Among the first were the hypercomplex numbers, which consist of various extensions or modifications of the complex number system. In modern mathematics, number systems are considered important special examples of more general algebraic structures such as rings and fields, and the application of the term.\nNumbers should be distinguished from numerals, the symbols used to represent numbers. The Egyptians invented the first ciphered numeral system, and the Greeks followed by mapping their counting numbers onto Ionian and Doric alphabets.[12] Roman numerals, a system that used combinations of letters from the Roman alphabet, remained dominant in Europe until the spread of the superior Hindu–Arabic numeral system around the late 14th century, and the Hindu–Arabic numeral system remains the most common system for representing numbers in the world today.[13][better source needed] The key to the effectiveness of the system was the symbol for zero, which was developed by ancient Indian mathematicians around 500 AD.</string>
+    <string name="choose_diff_level">Choose diff level</string>
+</resources>
